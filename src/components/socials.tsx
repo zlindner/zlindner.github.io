@@ -34,6 +34,10 @@ const items = [
     {
         name: 'linkedin',
         url: 'https://linkedin.com/in/zachlindner'
+    },
+    {
+        name: 'resume',
+        url: `${process.env.PUBLIC_URL}/Resume.pdf`
     }
 ];
 
