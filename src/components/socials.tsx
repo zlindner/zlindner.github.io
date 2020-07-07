@@ -13,13 +13,16 @@ const Wrapper = styled.ul`
 const Item = styled.li`
     float: left;
     margin-bottom: 40px;
+
     :last-child {
         margin: 0;
     }
+
     & > a {
+        font-family: 'SF Display';
         font-size: 14px;
-        letter-spacing: 2px;
-        font-weight: 600;
+        letter-spacing: 3px;
+        font-weight: 700;
     }
 `;
 

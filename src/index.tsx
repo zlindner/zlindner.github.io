@@ -24,10 +24,15 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
+        width: 100vw;
+        height: 100vh;
         margin: 0;
-        padding: 0;
+        padding: 50px;
         font-family: 'SF Text';
         font-weight: 400;
+        user-select: none;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     a {
@@ -39,6 +44,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'SF Display';
         font-weight: 700;
         font-size: 36pt;
+        margin: 0;
     }
 
     ul {
@@ -46,7 +52,16 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         list-style-type: none;
     }
-    
+
+    section {
+        width: calc(100vw - 250px);
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    span {
+        color: #515151;
+    }
 `;
 
 ReactDOM.render(

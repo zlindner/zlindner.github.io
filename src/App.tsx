@@ -1,12 +1,13 @@
 import React from 'react';
+import Home from './components/home';
 import Socials from './components/socials';
 
 const App = () => {
     return (
-        <div>
-            <h1>Zachary Lindner</h1>
+        <React.Fragment>
+            <Home />
             <Socials />
-        </div>
+        </React.Fragment>
     );
 };
 
