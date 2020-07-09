@@ -35,9 +35,15 @@ const GlobalStyles = createGlobalStyle`
         overflow: hidden;
     }
 
+    #root {
+        width: 100%;
+        height: 100%;
+    }
+
     a {
         color: #000;
         text-decoration: none;
+        outline: none;
     }
 
     h1 {
@@ -51,12 +57,6 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         list-style-type: none;
-    }
-
-    section {
-        width: calc(100vw - 250px);
-        margin: 0 auto;
-        box-sizing: border-box;
     }
 
     span {

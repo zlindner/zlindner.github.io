@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.ul`
-    position: fixed;
+    position: absolute;
     top: 50%;
     right: 50px;
     transform: translateY(-50%);
