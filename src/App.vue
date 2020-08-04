@@ -2,16 +2,19 @@
     <div id="app">
         <Home />
         <Projects />
+
+        <Socials />
     </div>
 </template>
 
 <script>
     import Home from './components/home';
     import Projects from './components/projects';
+    import Socials from './components/socials';
 
     export default {
         name: 'App',
-        components: { Home, Projects }
+        components: { Home, Projects, Socials }
     };
 </script>
 
@@ -40,4 +43,7 @@
 
     div
         box-sizing: border-box
+
+    a
+        color: #fff
 </style>

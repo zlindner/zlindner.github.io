@@ -15,7 +15,7 @@
                 >
                 <span
                     >i'm available for work and any other kind of opportunities.
-                    <a href="mailto:zach.lindner@hotmail.com">get in touch.</a></span
+                    <a href="mailto:zach.lindner@hotmail.com">get in touch</a>.</span
                 >
             </div>
         </div>
@@ -43,7 +43,6 @@
             .header
                 width: 300px
                 font-size: 24px
-                letter-spacing: 2px
 
             .grid
                 width: calc(100% - 300px)
@@ -55,7 +54,4 @@
                 span
                     width: 300px
                     font-size: 18px
-
-                    a
-                        color: #fff
 </style>
